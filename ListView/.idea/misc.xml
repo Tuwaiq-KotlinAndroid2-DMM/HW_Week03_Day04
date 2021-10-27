@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gahg/Tuwaiq/Week3/Day4/ListView/app/src/main/res/drawable/btn_text.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/gahg/Tuwaiq/Week3/Day4/ListView/app/src/main/res/drawable/button_rounded_white.xml" value="0.1" />
+        <entry key="..\:/Users/gahg/Tuwaiq/Week3/Day4/ListView/app/src/main/res/drawable/dialog_gradinet.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/gahg/Tuwaiq/Week3/Day4/ListView/app/src/main/res/layout/activity_2.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/gahg/Tuwaiq/Week3/Day4/ListView/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/gahg/Tuwaiq/Week3/Day4/ListView/app/src/main/res/layout/custom_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/gahg/Tuwaiq/Week3/Day4/ListView/app/src/main/res/layout/remove_dialog.xml" value="0.16530797101449277" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
