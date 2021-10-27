@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backcolor"
+
+    >
+
+    <TextView
+        android:id="@+id/textViewRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="sans-serif-medium"
+        android:outlineProvider="paddedBounds"
+        android:text="Add Name"
+        android:textColor="#6A5E81"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonDialogAdd"
+        android:layout_width="280dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="111dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialogEText"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dialogEText"
+        android:layout_width="324dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:hint="Add Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRemove" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
