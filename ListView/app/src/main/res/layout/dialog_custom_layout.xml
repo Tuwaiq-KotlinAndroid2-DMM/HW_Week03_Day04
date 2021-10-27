@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainsLayout"
+    android:layout_width="350dp"
+    android:layout_height="340dp"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="32dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginBottom="400dp"
+    android:background="@drawable/gradentcolorbackgroud"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewoLayoutRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/add_user"
+        android:textColor="#F8F5F5"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextFieldAddUsername"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="30dp"
+        android:hint="@string/username"
+        app:hintTextColor="#FFF"
+        android:textColorHint="#FFFFFF"
+        app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewoLayoutRemove">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextusernameDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FAF7F7"
+            android:textColorHint="#F8F5F5" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonRemoveDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/btnselector"
+        android:text="Add"
+        android:textColor="#FAF8F8"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextFieldAddUsername" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
