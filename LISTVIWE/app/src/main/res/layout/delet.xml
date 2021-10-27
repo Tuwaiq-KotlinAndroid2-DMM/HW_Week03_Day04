@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundbutton">
+
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="332dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/backgroundbutton"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="@drawable/backgroundbutton"
+            android:text="            Add user"
+            android:textSize="34sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dialogButtonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:background="@drawable/backgroundbutton"
+            android:foregroundTint="@color/white"
+            android:text="Delete"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            app:iconTint="@color/black"
+            app:strokeColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
