@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="407dp"
+        android:layout_height="291dp"
+        android:background="@drawable/custombackground"
+        tools:layout_editor_absoluteY="89dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonDeleteUser"
+            android:layout_width="205dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/custombutton"
+            android:text="Delete"
+            android:textColor="@color/purple_200"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinnerList"
+            android:layout_width="352dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/ButtonDeleteUser"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
