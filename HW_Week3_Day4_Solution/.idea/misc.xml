@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dalma/AndroidStudioProjects/HW_Week3_Day4_Solution/app/src/main/res/drawable/button_draw.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/dalma/AndroidStudioProjects/HW_Week3_Day4_Solution/app/src/main/res/drawable/draw1.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/dalma/AndroidStudioProjects/HW_Week3_Day4_Solution/app/src/main/res/layout/activity_main.xml" value="0.2546875" />
+        <entry key="..\:/Users/dalma/AndroidStudioProjects/HW_Week3_Day4_Solution/app/src/main/res/layout/activity_main2.xml" value="0.2546875" />
+        <entry key="..\:/Users/dalma/Desktop/HW_Week03_Day04/HW_Week3_Day4_Solution/app/src/main/res/drawable/button_draw.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/dalma/Desktop/HW_Week03_Day04/HW_Week3_Day4_Solution/app/src/main/res/drawable/draw1.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/dalma/Desktop/HW_Week03_Day04/HW_Week3_Day4_Solution/app/src/main/res/layout/activity_main.xml" value="0.2546875" />
+        <entry key="..\:/Users/dalma/Desktop/HW_Week03_Day04/HW_Week3_Day4_Solution/app/src/main/res/layout/dialog2.xml" value="0.2546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
