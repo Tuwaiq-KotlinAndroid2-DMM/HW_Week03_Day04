@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_btn">
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="386dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textViewAddUser"
+            android:layout_width="230dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="112dp"
+            android:fontFamily="sans-serif"
+            android:text="Add Name"
+            android:textAlignment="center"
+            android:textColor="#383935"
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/DialogTextViewName"
+            android:layout_width="230dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="7dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/DialogAdd"
+            android:layout_width="230dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/buttonadd"
+            android:text="Add"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
