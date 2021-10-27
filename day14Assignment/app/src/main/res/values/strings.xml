@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">day13Practice</string>
+    <string name="search_add_en">Add</string>
+    <string name="search_remove_en">Remove</string>
+    <string name="delete_en">Delete</string>
+    <string name="dialog_positive_en">Yes</string>
+    <string name="dialog_negative_en">No</string>
+    <string name="title_cutLayout_en">Add User</string>
+    <string name="hint_cusLayout_en">User</string>
+    <string name="button_cusLayout_en">Add</string>
+    <string name="remove_title_en">Select user to remove</string>
+</resources>
