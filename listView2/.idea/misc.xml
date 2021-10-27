@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/buttoun_shape.xml" value="0.22291666666666668" />
+        <entry key="app/src/main/res/drawable-v24/dialog_bg.xml" value="0.22291666666666668" />
+        <entry key="app/src/main/res/font/alegreya_sc.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/font/alice.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_user_info.xml" value="0.10055724417426545" />
+        <entry key="app/src/main/res/layout/dialog_custom.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/remove_dialog.xml" value="0.19384057971014493" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

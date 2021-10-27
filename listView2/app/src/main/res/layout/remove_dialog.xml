@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="350dp"
+    android:layout_marginStart="18dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginEnd="17dp"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textviewRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alice"
+        android:text="Remove User"
+        android:textAlignment="center"
+        android:textColor="#676060"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spinnerUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonDialogRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/buttoun_shape"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Remove"
+        android:textColor="#E4B6C6"
+        android:textSize="20sp" />
+
+</LinearLayout>
