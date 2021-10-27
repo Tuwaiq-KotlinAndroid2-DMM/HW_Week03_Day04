@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="40dp">
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Remove User"
+		android:textAlignment="center"
+		android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+	<Spinner
+		android:id="@+id/removeUsersSpinner"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="48dp" />
+
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="50dp" />
+
+	<Button
+		android:id="@+id/removeUsersDialogButton"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Remove" />
+</LinearLayout>
