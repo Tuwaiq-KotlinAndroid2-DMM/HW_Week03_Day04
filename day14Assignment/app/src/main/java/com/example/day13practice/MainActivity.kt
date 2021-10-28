@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.SearchView
@@ -71,7 +72,6 @@ class MainActivity : AppCompatActivity() {
         customAlertDialog.show()
     }
 
-
     private fun showItemInfo(parent: AdapterView<*>, position: Int) {
         var item = parent.getItemAtPosition(position).toString()
         var intent = Intent(this, MainActivityUser::class.java)
@@ -89,6 +89,14 @@ class MainActivity : AppCompatActivity() {
         var btnAddItem = view.findViewById<Button>(R.id.buttonAddItem)
 
         customAlertDialog.setView(view)
+
+        editTextInput.editText?.setOnKeyListener { v, keyCode, event ->
+            if (keyCode == KeyEvent.KEYCODE_ENTER && event.action == KeyEvent.ACTION_UP){
+                btnAddItem.performClick()
+                true
+            }
+            false
+        }
 
         btnAddItem.setOnClickListener {addItemToListView(editTextInput)}
 
