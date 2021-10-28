@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/dialogView"
+        android:layout_width="382dp"
+        android:layout_height="241dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginBottom="227dp"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481">
+
+        <TextView
+            android:id="@+id/textViewUserDia"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:fontFamily="serif"
+            android:text="Add User"
+            android:textAlignment="center"
+            android:textColor="#FBF7F7"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:drawableLeft="@drawable/ic_baseline_people_24"
+            android:ems="10"
+            android:hint="User"
+            android:inputType="textPersonName"
+            android:textColor="#ECE1E1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAddDia"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:alpha="0.50"
+            android:background="@drawable/btn"
+            android:text="Add"
+            android:textColor="#0E0202"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
